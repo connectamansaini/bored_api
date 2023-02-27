@@ -1,7 +1,7 @@
 part of 'bored_bloc.dart';
 
 class BoredState {
-  BoredState({
+  const BoredState({
     this.bored = Bored.empty,
     this.boredDataStatus = BoredDataStatus.initial,
   });

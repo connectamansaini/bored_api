@@ -5,5 +5,3 @@ abstract class BoredEvent {
 }
 
 class BoredDataRequested extends BoredEvent {}
-
-class BoredUrlLaunched extends BoredEvent {}

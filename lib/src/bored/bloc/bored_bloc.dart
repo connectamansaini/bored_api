@@ -9,7 +9,7 @@ part 'bored_event.dart';
 part 'bored_state.dart';
 
 class BoredBloc extends Bloc<BoredEvent, BoredState> {
-  BoredBloc(this.boredRepository) : super(BoredState()) {
+  BoredBloc(this.boredRepository) : super(const BoredState()) {
     on<BoredDataRequested>(_onBoredDataRequested);
   }
   final BoredRepository boredRepository;
